@@ -24,19 +24,19 @@ public class PasserRating {
 		
 		// Calculation 1
 		double Calculation1;
-		Calculation1 = ( (COMP/ATT) - .3)*5;
+		Calculation1 =  (((COMP/ATT) - .3 ) *5) ;
 				
 		// Calculation 2
 		double Calculation2;	
-		Calculation2 =  ((Yards/ATT) -3) *.25;
+		Calculation2 =  ((Yards/ATT -3) *.25);
 		
 		// Calculation 3
 		double Calculation3;
-		Calculation3 = (TD/ATT) * 20 ;
+		Calculation3 = (TD/ATT * 20) ;
 		
 		// Calculation 4
 		double Calculation4;
-		Calculation4 = 2.375 - ( (INT/ATT)*25 );
+		Calculation4 = 2.375 - ( INT/ATT *25 );
 		
 		// Passer Rating formula declared as variable name QBRating
 		double QBRating;
